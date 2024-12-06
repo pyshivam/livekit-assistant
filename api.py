@@ -2,8 +2,8 @@ import aiohttp
 import asyncio
 import os
 
-# BASE_URL = "https://ransahai-crud-production.pyshivam.workers.dev/api/v1"
-BASE_URL = "http://localhost:8787/api/v1"
+BASE_URL = "https://ransahai-crud-production.pyshivam.workers.dev/api/v1"
+# BASE_URL = "http://localhost:8787/api/v1"
 
 class ApiClient:
     def __init__(self, base_url: str = BASE_URL):
