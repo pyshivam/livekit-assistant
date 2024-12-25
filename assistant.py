@@ -102,7 +102,7 @@ Your goal is to assess candidate based on their expertise on subjects mentioned 
     [Resume Start Here]
         Name: {candidateDetails["application"]["name"]}
         
-        {candidateDetails["application"]["resumeContent"]}
+        {candidateDetails["application"]}
     [Resume End Here]
     6. Find the Role context repository for Job Title role here: Find the Role context for Job Title role from the link provided or as per the instructions provided below.
 2. Incorporate extracted insights to customise & conduct the interview dynamically.
